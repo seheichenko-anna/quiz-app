@@ -18,7 +18,13 @@ body {
 .start-page label {
   border: none;
   font-size: 20px;
+  color: #293264;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 500;
+
 }
+
 
 select,
 option {
@@ -32,6 +38,7 @@ option {
   padding: 10px 20px;
   border-radius: 15px;
   border: 1px solid #4D5B9E;
+  cursor: pointer;
 }
 
 h1 {
@@ -94,7 +101,7 @@ input[type="radio"] {
 
 }
 
-label {
+li label {
   display: inline-block;
   padding: 4px 10px;
   color: #293264;
@@ -108,7 +115,7 @@ label {
 
 }
 
-label:hover {
+li label:hover {
   background: #D6DBF5;
 }
 
