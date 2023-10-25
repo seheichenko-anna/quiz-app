@@ -135,7 +135,7 @@ export default function App() {
       {!isQuizStarted && (
         <div className="start-page">
           <h1>Quizzical</h1>
-          <label htmlFor="category">Choose category</label>
+          <label htmlFor="category">Select a category</label>
           <select id="category" onChange={handleChange}>
             <option value="10">Books</option>
             <option value="11">Film</option>
